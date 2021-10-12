@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import From from '../components/From'
 import NumbersForm from '../components/NumbersForm'
 import Result from '../components/Result'
+import "./style.css"
 
 class App extends Component {// component stateful
   render() {
