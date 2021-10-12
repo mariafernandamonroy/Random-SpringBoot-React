@@ -1,7 +1,7 @@
 //reducers
 import { combineReducers } from "redux";
 
-function view(
+function viewNumbers(
   state = {
     loading: false,
   },
@@ -24,7 +24,7 @@ function view(
   }
 }
 
-function random(
+function randomNumbers(
   state = {
     result: {},
   },
@@ -40,8 +40,8 @@ function random(
 }
 
 const rootReducer = combineReducers({
-  view,
-  random,
+  viewNumbers,
+  randomNumbers,
 });
 
 export default rootReducer;
