@@ -34,6 +34,9 @@ function random(
     case "random-result": {
       return { result: action.data };
     }
+    case "random-numbers-result":{
+      return {result: action.data}
+    }
     default:
       return state;
   }
